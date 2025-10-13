@@ -42,7 +42,10 @@
     - Toggle
   - type: Gun
     fireRate: 12
-    projectileSpeed: 90
+    projectileSpeed: 160
+    minAngle: 0
+    maxAngle: 5
+    shootThermalSignature: 10000 # relatively low for a shipgun, ~693m signature if firing continuously
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/Gunshots/slammer.ogg
     soundEmpty:
@@ -109,8 +112,11 @@
     ports:
     - Toggle
   - type: Gun
-    fireRate: 50
-    projectileSpeed: 120
+    fireRate: 80
+    projectileSpeed: 180
+    minAngle: 0
+    maxAngle: 8
+    shootThermalSignature: 100000 # ~4.5km if firing continuously
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/Gunshots/slammer.ogg
     soundEmpty:
@@ -174,7 +180,9 @@
     range: 500
   - type: Gun
     fireRate: 1.5
-    projectileSpeed: 180
+    projectileSpeed: 250
+    minAngle: 0
+    maxAngle: 2
     shootThermalSignature: 2000000 # ~3.5km signature if firing continuously
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/Gunshots/mortar.ogg
@@ -235,7 +243,9 @@
     range: 500
   - type: Gun
     fireRate: 2.5
-    projectileSpeed: 120
+    projectileSpeed: 170
+    minAngle: 0
+    maxAngle: 3
     burstCooldown: 0.5
     burstFireRate: 10
     shotsPerBurst: 2
@@ -311,7 +321,9 @@
         layer:
         - MachineLayer
   - type: Gun
-    projectileSpeed: 155
+    projectileSpeed: 275
+    minAngle: 0
+    maxAngle: 1
     fireRate: 0.2
     burstCooldown: 10
     burstFireRate: 2
@@ -388,7 +400,9 @@
         layer:
         - MachineLayer
   - type: Gun
-    projectileSpeed: 225
+    projectileSpeed: 350
+    minAngle: 0
+    maxAngle: 0
     fireRate: 0.2
     burstCooldown: 10
     burstFireRate: 2
@@ -454,7 +468,10 @@
     range: 500
   - type: Gun
     fireRate: 0.05
-    projectileSpeed: 400
+    minAngle: 0
+    maxAngle: 0
+    projectileSpeed: 800
+    shootThermalSignature: 20000000 # ~4.5km after firing
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/Gunshots/leviathan_fire.ogg
     soundEmpty:
@@ -536,7 +553,9 @@
         layer:
         - MachineLayer
   - type: Gun
-    projectileSpeed: 155
+    projectileSpeed: 455
+    minAngle: 0
+    maxAngle: 1
     fireRate: 0.1
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/Gunshots/cannon.ogg
@@ -609,7 +628,9 @@
         layer:
         - MachineLayer
   - type: Gun
-    projectileSpeed: 155
+    projectileSpeed: 255
+    minAngle: 0
+    maxAngle: 3
     fireRate: 0.2
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/Gunshots/cannon.ogg
