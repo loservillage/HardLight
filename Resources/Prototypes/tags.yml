@@ -1538,7 +1538,3 @@
 
 - type: Tag
   id: CartridgeShell
-
-# Hardlight
-- type: Tag
-  id: BorgWearable
