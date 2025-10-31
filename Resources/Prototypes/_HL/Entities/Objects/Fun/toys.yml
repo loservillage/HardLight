@@ -830,6 +830,9 @@
       path: /Audio/Items/Toys/weh.ogg
   - type: Speech
     speechVerb: Reptilian # for pais (In the secret stash)
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_Starlight/Effects/Shadekin/nullphase.ogg
   - type: Tag
     tags:
     - ClothMade
