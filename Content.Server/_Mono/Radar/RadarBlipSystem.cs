@@ -107,7 +107,7 @@ public sealed partial class RadarBlipSystem : EntitySystem
                 // Get velocity for prediction
                 var blipVelocity = _physQuery.TryGetComponent(blipUid, out var phys)
                     ? _physics.GetMapLinearVelocity(blipUid, component: phys)
- `                   : Vector2.Zero;
+                    : Vector2.Zero;
 
                 // Convert RadarBlipShapeNF to RadarBlipShape (they should be compatible enums)
                 var shape = (RadarBlipShape)(int)blip.Shape;
