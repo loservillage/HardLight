@@ -10,7 +10,7 @@
   - type: Clothing
     sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitSyndicate
+    clothingPrototype: ClothingHeadHelmetHardsuitBasic
 
 # Pirate SCAF Hardsuit Stub
 - type: entity

@@ -10,7 +10,7 @@
     - Cartridge
     - CartridgeDMR
   - type: CartridgeAmmo
-    proto: BulletDMR
+    proto: Bullet556x45mmFMJ
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
     layers:
@@ -28,4 +28,4 @@
   parent: BaseCartridgeDMR
   components:
   - type: CartridgeAmmo
-    proto: BulletDMR
+    proto: Bullet556x45mmFMJ

@@ -1,5 +1,5 @@
 - type: department
   id: UnionOfSovietSocialistPlanets
-  name: Union of Soviet Socialist Planets
-  description: USSP Department
+  name: department-UnionOfSovietSocialistPlanets
+  description: department-UnionOfSovietSocialistPlanets-description
   color: "#B01340"

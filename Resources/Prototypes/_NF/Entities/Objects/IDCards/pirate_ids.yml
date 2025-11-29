@@ -9,8 +9,6 @@
     layers:
     - state: default
     - state: idpirate
-  - type: PresetIdCard
-    job: Pirate
 
 - type: entity
   parent: IDCardStandard
@@ -22,8 +20,6 @@
     layers:
     - state: silver
     - state: idpiratecaptain
-  - type: PresetIdCard
-    job: PirateCaptain
 
 - type: entity
   parent: IDCardStandard
@@ -35,5 +31,3 @@
     layers:
     - state: default
     - state: idpiratefirstmate
-  - type: PresetIdCard
-    job: PirateFirstMate

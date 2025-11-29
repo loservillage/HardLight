@@ -26,7 +26,7 @@
 - type: gameMap
   id: Archer
   mapName: 'TSF-SKR Archer'
-  mapPath: /Maps/_Mono/Shuttles/archer.yml
+  mapPath: /Maps/_HL/Shuttles/Syndicate/Copperhead.yml
   minPlayers: 0
   stations:
     Copperhead:
