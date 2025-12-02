@@ -1,6 +1,5 @@
 - type: quickPhrase
   id: BaseCrewSpeciesPhrase
-  parent: BaseSpeciesPhrase
   group: Crew
   abstract: true
 
