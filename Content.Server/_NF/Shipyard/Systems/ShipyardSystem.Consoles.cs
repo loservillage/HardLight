@@ -521,7 +521,7 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
 
         // Calculate appraisal cost for the loaded ship
         var appraisalCost = (int)_pricing.AppraiseGrid(shuttleUid, null);
-        
+
         // Check if player has a bank account and session to charge them
         if (!_player.TryGetSessionByEntity(player, out var playerSession))
         {
@@ -540,7 +540,7 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
         // Calculate the new balance after charging
         int currentBalance = bankAccount.Balance;
         int newBalance = currentBalance - appraisalCost;
-        
+
         // Force charge the player - allow going into debt
         if (!_bank.TryBankWithdrawAllowDebt(player, appraisalCost))
         {
@@ -553,12 +553,12 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
         // Notify player of the charge and their new balance
         if (newBalance < 0)
         {
-            ConsolePopup(player, Loc.GetString("shipyard-console-load-success-debt", 
+            ConsolePopup(player, Loc.GetString("shipyard-console-load-success-debt",
                 ("ship", name), ("cost", appraisalCost), ("debt", -newBalance)));
         }
         else
         {
-            ConsolePopup(player, Loc.GetString("shipyard-console-load-success-charged", 
+            ConsolePopup(player, Loc.GetString("shipyard-console-load-success-charged",
                 ("ship", name), ("cost", appraisalCost)));
         }
 
